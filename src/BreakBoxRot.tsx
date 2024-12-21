@@ -14,8 +14,8 @@ const BreakBoxRot = (props: BBRProps) => {
         <>
             {
                 [0, 1].map((i: number) => (
-                    <div style={parentStyle(i)}>
-                        <div>
+                    <div style={parentStyle(i)} onClick={props.onClick}>
+                        <div style={barStyle()}>
 
                         </div>
                     </div>
